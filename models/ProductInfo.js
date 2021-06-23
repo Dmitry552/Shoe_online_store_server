@@ -6,4 +6,4 @@ const ProductInfo = new Schema({
   description: {type: String, default: ''}
 })
 
-module.export = model('ProductInfo', ProductInfo);
+module.exports = model('ProductInfo', ProductInfo);

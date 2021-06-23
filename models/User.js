@@ -1,8 +1,10 @@
 const {Schema, model, ObjectId} = require('mongoose');
 
 const User = new Schema({
-  email: {type: String, require: true},
-  password: {type: String, require: true},
+  email: {type: String, unique: true, required: true},
+  password: {type: String, required: true},
+  isActivated: {type: Boolean, default: false}, //Подтвердит пользователь почту или нет
+  activatedLink: {type: String}, //Сылка для активации
   role: {type: String, default: 'USER'},
   name: {type: String},
   surname: {type: String},
@@ -24,4 +26,4 @@ const User = new Schema({
   basket:[{type: ObjectId, ref: 'Basket'}],
 })
 
-module.export = model('User', User);
+module.exports = model('User', User);

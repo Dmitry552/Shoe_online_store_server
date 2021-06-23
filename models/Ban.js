@@ -6,4 +6,4 @@ const Ban = new Schema({
   title: {type: String, default: ''}
 })
 
-module.export = model('Ban', Ban);
+module.exports = model('Ban', Ban);

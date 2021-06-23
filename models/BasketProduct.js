@@ -5,4 +5,4 @@ const BasketProduct = new Schema({
   product: [{type: ObjectId, ref: 'Product'}]
 })
 
-module.export = model('BasketProduct', BasketProduct);
+module.exports = model('BasketProduct', BasketProduct);

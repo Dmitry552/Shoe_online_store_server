@@ -5,4 +5,4 @@ const Discount = new Schema({
   product: [{type: ObjectId, ref: 'Product'}]
 })
 
-module.export = model('Discount', Discount);
+module.exports = model('Discount', Discount);

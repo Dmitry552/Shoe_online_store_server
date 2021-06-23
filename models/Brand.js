@@ -6,4 +6,4 @@ const Brand = new Schema({
   
 })
 
-module.export = model('Brand', Brand);
+module.exports = model('Brand', Brand);

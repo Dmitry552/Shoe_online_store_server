@@ -18,6 +18,9 @@
 |`api/user`                  |Удаление пользователя           |`DELETE`       |
 |`api/user/login`            |Авторизация                     |`GET`          |
 |`api/user/registration`     |Регистрация                     |`POST`         |
+|`api/user/activate`         |Активация аккаунта              |`GET`          |
+|`api/user/refresh`          |Перезапись токена               |`GET`          |
+|`api/user/logout      `     |Выйти из аккаунта               |`POST`         |
 |`api/user/auth`             |Аутонтификация                  |`GET`          |
 |`api/user/role`             |Изменение роли пользователя     |`POST`         | ?????
 |`api/user/avatar`           |Загрузка аватара                |`POST`         |

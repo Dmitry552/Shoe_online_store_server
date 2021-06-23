@@ -6,4 +6,4 @@ const Rating = new Schema({
   rat: {type: Number, default: 0, min: 0, max: 5}
 })
 
-module.export = model('Rating', Rating);
+module.exports = model('Rating', Rating);
