@@ -5,4 +5,4 @@ const Preferences = new Schema({
   product: [{type: ObjectId, ref: 'Product'}]
 })
 
-module.export = model('Preferences', Preferences);
+module.exports = model('Preferences', Preferences);

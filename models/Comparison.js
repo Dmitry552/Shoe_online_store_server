@@ -5,4 +5,4 @@ const Comparison = new Schema({
   product: [{type: ObjectId, ref: 'Product'}]
 })
 
-module.export = model('Comparison', Comparison);
+module.exports = model('Comparison', Comparison);

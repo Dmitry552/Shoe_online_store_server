@@ -9,4 +9,4 @@ const Product = new Schema({
   discount: {type: ObjectId, ref: 'Discount'}
 })
 
-module.export = model('Product', Product);
+module.exports = model('Product', Product);
